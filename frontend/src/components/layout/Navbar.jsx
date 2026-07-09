@@ -59,9 +59,9 @@ function Navbar() {
 
       <div className="nav-actions">
 
-        <button className="nav-btn">
+        <NavLink to="/register" className="nav-btn">
           Get Started
-        </button>
+        </NavLink>
 
         <button
           className="theme-btn"
@@ -112,9 +112,13 @@ function Navbar() {
 
   <hr />
 
-  <button className="mobile-btn">
+  <NavLink
+    to="/register"
+    className="mobile-btn"
+    onClick={() => setMenuOpen(false)}
+  >
     Get Started
-  </button>
+  </NavLink>
 
   <button
     className="theme-btn mobile-theme"

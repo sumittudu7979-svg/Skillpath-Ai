@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.dashboard-layout{
+  display:flex;
+  min-height:100vh;
+  background:#f5f7fb;
+}
+
+.dashboard-content{
+  flex:1;
+  padding:40px;
+}
+
+/* Welcome Card */
+
+.welcome-card{
+  background:linear-gradient(135deg,#6366f1,#3b82f6);
+  color:white;
+  padding:35px;
+  border-radius:20px;
+  margin-bottom:30px;
+  box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.welcome-card h1{
+  font-size:34px;
+  margin-bottom:10px;
+}
+
+.welcome-card p{
+  opacity:.9;
+  font-size:18px;
+}
+
+/* Grid */
+
+.dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:25px;
+  margin-bottom:30px;
+}
+
+/* Cards */
+
+.goal-card,
+.progress-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+min-height:260px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+}
+.task-card,
+.recommendation-card{
+  background:white;
+  border-radius:18px;
+  padding:25px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.goal-card h2,
+.progress-card h2,
+.task-card h2,
+.recommendation-card h2{
+  margin-bottom:15px;
+}
+
+.goal-card h3{
+  color:#4f46e5;
+  font-size:30px;
+}
+
+.goal-card p{
+  color:#777;
+  margin-top:10px;
+}
+
+progress{
+  width:100%;
+  height:18px;
+}
+
+.task-card ul{
+  margin-top:15px;
+}
+
+.task-card li{
+  list-style:none;
+  margin:12px 0;
+  font-size:17px;
+}
+
+.recommendation-card p{
+  margin-top:15px;
+  line-height:28px;
+  color:#666;
+}
+
+.dashboard-layout{
+
+display:flex;
+
+background:#f3f6fb;
+
+min-height:100vh;
+
+}
+
+.dashboard-content{
+
+margin-left:260px;
+
+width:100%;
+
+padding:40px;
+
+}

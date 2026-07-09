@@ -1,0 +1,89 @@
+.player-page{
+    flex:1;
+    padding:35px;
+    background:#f5f7ff;
+    min-height:100vh;
+}
+
+.back-btn{
+    border:none;
+    background:#6c63ff;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.player-page h1{
+    margin-bottom:25px;
+}
+
+.player-layout{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+.video-player{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.progress-card{
+    margin-top:25px;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+}
+
+.progress-bar{
+    width:100%;
+    height:12px;
+    background:#eee;
+    border-radius:30px;
+    overflow:hidden;
+    margin:20px 0;
+}
+
+.progress-fill{
+    height:100%;
+    background:linear-gradient(90deg,#6c63ff,#4fa3ff);
+}
+
+.lesson-sidebar{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.lesson{
+    padding:15px;
+    border-radius:10px;
+    margin-top:12px;
+    background:#f4f4f4;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.lesson:hover{
+    background:#ece8ff;
+}
+
+.active{
+    background:#6c63ff;
+    color:white;
+}
+
+@media(max-width:900px){
+
+.player-layout{
+
+grid-template-columns:1fr;
+
+}
+
+}

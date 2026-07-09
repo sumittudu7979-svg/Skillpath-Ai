@@ -1,0 +1,38 @@
+.roadmap-card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.roadmap-list{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.roadmap-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:18px;
+    border-radius:12px;
+    background:#f7f8fc;
+    transition:.3s;
+}
+
+.roadmap-item:hover{
+    transform:translateX(6px);
+    background:#eef3ff;
+}
+
+.roadmap-item input{
+    width:22px;
+    height:22px;
+}
+
+.roadmap-item span{
+    font-size:18px;
+    font-weight:600;
+}
